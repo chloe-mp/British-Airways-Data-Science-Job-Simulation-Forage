@@ -10,9 +10,9 @@ Through exploratory data analysis (EDA), visualization, and predictive modeling,
 ## Project Structure
 
 File	Description
-Getting Started.ipynb	Introduction and setup for the simulation environment.
-British_Airways_job_simulation.ipynb	Exploratory data analysis, visualization, and insight generation.
-Predictive_model_Task2.ipynb	Machine learning and predictive modeling to forecast customer satisfaction.
+- Getting Started.ipynb	Introduction and setup for the simulation environment.
+- British_Airways_job_simulation.ipynb	Exploratory data analysis, visualization, and insight generation.
+- Predictive_model_Task2.ipynb	Machine learning and predictive modeling to forecast customer satisfaction.
 
 ## Objectives
 
