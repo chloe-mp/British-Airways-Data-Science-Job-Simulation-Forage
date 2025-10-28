@@ -1,4 +1,4 @@
-# British-Airways-Data-Science-Job-Simulation-Forage
+# British Airways Data Science Job Simulation Forage
 
 ## Overview
 
