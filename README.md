@@ -30,22 +30,20 @@ A Random Forest model achieved a strong AUC score, indicating reliable predictiv
 
 ## Skills Demonstrated
 
-Data Cleaning and Preparation
-Exploratory Data Analysis (EDA)
-Sentiment and Text Analysis
-Predictive Modeling (Random Forest, Logistic Regression)
-Data Visualization (Matplotlib, Seaborn, Plotly)
-Business Insight Communication
+- Data Cleaning and Preparation
+- Exploratory Data Analysis (EDA)
+- Sentiment and Text Analysis
+- Predictive Modeling (Random Forest, Logistic Regression)
+- Data Visualization (Matplotlib, Seaborn, Plotly)
+- Business Insight Communication
 
 ## Tools and Technologies
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, NLTK)
-Jupyter Notebook
-Forage Simulation Platform
-GitHub for version control and documentation
+- Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, NLTK)
+- Jupyter Notebook
 
 ## Why Random Forest Was the Most Appropriate Model
 
-- The Random Forest algorithm was chosen for this project because it offers a balance between predictive power, robustness, and interpretability — essential qualities for modeling customer satisfaction data.
+- The Random Forest algorithm was chosen for this project because it offers a balance between predictive power, robustness, and interpretability, essential qualities for modeling customer satisfaction data.
 - Handles non-linear relationships: Customer satisfaction is influenced by multiple complex factors (e.g., service, delays, seat comfort). Random Forest can capture these interactions without requiring feature scaling.
 - Resistant to overfitting: By averaging the predictions of many decision trees, Random Forest generalizes better to unseen data.
 - Feature importance insights: It provides interpretable feature rankings, helping to identify which aspects (like “baggage handling” or “punctuality”) most affect satisfaction.
@@ -63,16 +61,16 @@ What is AUC?
 
 AUC (Area Under the ROC Curve) is a metric used to evaluate the performance of classification models.
 It measures how well the model distinguishes between classes (in this case, satisfied vs. unsatisfied customers).
-AUC = 1.0: Perfect classifier
-AUC = 0.5: Random guessing
-AUC < 0.5: Poor model performance
+- AUC = 1.0: Perfect classifier
+- AUC = 0.5: Random guessing
+- AUC < 0.5: Poor model performance
 A higher AUC means the model is better at ranking positive cases higher than negative ones.
 
 ## Interpreting the Project’s AUC Score
 
 In this project, the Random Forest model achieved an AUC score of approximately 0.87, indicating strong predictive ability.
 This means there’s an 87% probability that the model correctly distinguishes a satisfied customer from an unsatisfied one based on their attributes and feedback.
-Such a score demonstrates that the model generalizes well and can be trusted for guiding business decisions — for instance, identifying passengers likely to give low satisfaction ratings and intervening proactively.
+Such a score demonstrates that the model generalizes well and can be trusted for guiding business decisions, for instance, identifying passengers likely to give low satisfaction ratings and intervening proactively.
 
 ## Model Evaluation Metrics
 
@@ -80,11 +78,14 @@ To ensure that the model’s predictions were not only accurate but also balance
 
 ## Metric	Description	Result	Interpretation
 
-Accuracy	Proportion of total predictions that were correct.	~0.85	The model correctly predicted satisfaction status 85% of the time.
-Precision	Of all passengers predicted to be satisfied, how many actually were.	~0.83	High precision means few false positives (rarely predicting satisfaction incorrectly).
-Recall	Of all truly satisfied passengers, how many were correctly identified.	~0.88	The model successfully identified most satisfied customers.
-F1-Score	Harmonic mean of precision and recall.	~0.85	Balanced performance across both metrics.
-Confusion Matrix	Summary of correct and incorrect classifications.	—	Most predictions fell along the diagonal (correct predictions), indicating strong performance.
+| Metric               | Description                                                            | Result | Interpretation                                                                                 |
+| -------------------- | ---------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------- |
+| **Accuracy**         | Proportion of total predictions that were correct.                     | ~0.85  | The model correctly predicted satisfaction status 85% of the time.                             |
+| **Precision**        | Of all passengers predicted to be satisfied, how many actually were.   | ~0.83  | High precision means few false positives (rarely predicting satisfaction incorrectly).         |
+| **Recall**           | Of all truly satisfied passengers, how many were correctly identified. | ~0.88  | The model successfully identified most satisfied customers.                                    |
+| **F1-Score**         | Harmonic mean of precision and recall.                                 | ~0.85  | Balanced performance across both metrics.                                                      |
+| **Confusion Matrix** | Summary of correct and incorrect classifications.                      | —      | Most predictions fell along the diagonal (correct predictions), indicating strong performance. |
+
 
 ## Confusion Matrix Interpretation
 
@@ -92,14 +93,6 @@ The confusion matrix confirmed that:
 The model rarely misclassified unsatisfied passengers as satisfied, reducing potential customer retention risks.
 The false negative rate was low, meaning genuinely satisfied customers were not overlooked.
 Together, these metrics validate that the Random Forest model is accurate, balanced, and generalizes well — ideal for real-world airline customer analytics.
-
-## Results & Recommendations
-
-Prioritize improvements in punctuality and baggage handling.
-Strengthen customer service training to improve satisfaction scores.
-Use predictive models to proactively identify at-risk customers.
-
-Implement personalized loyalty programs for frequent flyers.
 
 ## License
 
